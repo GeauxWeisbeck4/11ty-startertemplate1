@@ -1,0 +1,21 @@
+{
+  "title": "Geaux11ty.dev",
+  "url": "https://geaux11ty.dev/",
+  "language": "en",
+  "description": "This is a website for 11ty web development and consulting services.",
+  "feed": {
+    "subtitle": "Geaux 11ty is a freelance development brand, sibling of GeauxWeisbeck4.dev.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://geaux11ty.dev/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://example.com/feed/feed.json"
+  },
+  "author": {
+    "name": "Andrew Weisbeck",
+    "email": "geauxweisbeck4@gmail.com",
+    "url": "https://geaux11ty.dev/about-me/"
+  }
+}
