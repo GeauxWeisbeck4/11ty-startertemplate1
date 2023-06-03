@@ -1,10 +1,13 @@
 /* Colors */
 :root {
-  --lightgray: #e0e0e0;
-  --gray: #C0C0C0;
-  --darkgray: #333;
-  --navy: #17050F;
-  --blue: #082840;
+  --green: #20b358;
+  --blue: #1173be;
+  --light-blue: #2f9bf3;
+  --red: rgba(248, 23, 23, 0.979);
+  --purple: #8418e9;
+  --midnight: #410c74;
+  --slate: #35444e;
+  --fuschia: #e309f7;
   --white: #fff;
 }
 
@@ -63,7 +66,7 @@ table th {
 
 pre,
 code {
-  font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
+  font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", w"Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
   line-height: 1.5;
 }
 pre {
@@ -221,11 +224,15 @@ a[href].post-tag:focus {
 
 /* Warning */
 .warning {
-  background-color: #ffc;
+  background-color: rgb(204, 255, 231);
   padding: 1em 0.625em; /* 16px 10px /16 */
 }
 .warning ol:only-child {
   margin: 0;
+}
+.content-section {
+  background-color: #a1cff1;
+  padding: 1em 0.625em;
 }
 
 /* Direct Links / Markdown Headers */
@@ -244,4 +251,59 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link,
 :hover > a[href].direct-link:visited {
   color: #aaa;
+}
+
+     /* Style Guide */
+.token-grid {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20%;
+  gap: 40px;
+}
+
+.color-square {
+  border: black solid 2px;
+  height: 75px;
+  width: 200px;
+}
+
+.color-tokens {
+  padding: 40px 40px;
+}
+
+    /* Typography */
+.typography {
+  margin-bottom: 3em;
+}
+
+.blue {
+  background-color: var(--blue);
+}
+
+.green {
+  background-color: var(--green);
+}
+
+.red {
+  background-color: var(--red);
+}
+
+.light-blue {
+  background-color: var(--light-blue);
+}
+
+.purple {
+  background-color: var(--purple);
+}
+
+.midnight {
+  background-color: var(--midnight);
+}
+
+.slate {
+  background-color: var(--slate);
+}
+
+.fuschia {
+  background-color: var(--fuschia);
 }
